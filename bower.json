@@ -1,10 +1,10 @@
 {
-  "name": "angular-ui-notification",
+  "name": "angular-ui-notification-extended",
   "version": "0.3.0",
-  "homepage": "https://github.com/alexcrack/angular-ui-notification",
+  "homepage": "https://github.com/Toshegg/angular-ui-notification",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jermorin/angular-ui-notification"
+    "url": "git://github.com/Toshegg/angular-ui-notification"
   },
   "authors": [
     "Alexey Avramchik"
