@@ -59,6 +59,8 @@ angular.module('ui-notification').provider('Notification', function() {
             args.onClose = args.onClose ? args.onClose : options.onClose;
             args.closeOnClick = (args.closeOnClick !== null && args.closeOnClick !== undefined) ? args.closeOnClick : options.closeOnClick;
             args.container = args.container ? args.container : options.container;
+            startTop = args.startTop ? args.startTop : startTop;
+            startRight = args.startRight ? args.startRight : startRight;
 
             $http.get(args.template,{cache: $templateCache}).success(function(template) {
 
